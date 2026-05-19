@@ -148,6 +148,21 @@ CREATE TABLE `staff` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `UserID` int(11) NOT NULL AUTO_INCREMENT,
+  `Username` varchar(50) NOT NULL,
+  `Email` varchar(100) NOT NULL,
+  `PasswordHash` varchar(255) NOT NULL,
+  `CreatedAt` datetime DEFAULT CURRENT_TIMESTAMP,
+  `LastLogin` datetime DEFAULT NULL,
+  PRIMARY KEY (`UserID`),
+  UNIQUE KEY `Username` (`Username`),
+  UNIQUE KEY `Email` (`Email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+--
 -- Indexes for dumped tables
 --
 
