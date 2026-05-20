@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 session_start();
 include '../config/db.php';
@@ -357,3 +358,6 @@ $active_tab = isset($_GET['tab']) ? $_GET['tab'] : 'cars';
 </div>
 </body>
 </html>
+=======
+
+>>>>>>> 1dd43c7ee41b6f5d0969426f24fee60d1b04326c

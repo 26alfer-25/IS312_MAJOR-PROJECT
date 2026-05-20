@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -158,3 +159,6 @@
 </div>
 </body>
 </html>
+=======
+
+>>>>>>> 1dd43c7ee41b6f5d0969426f24fee60d1b04326c
